@@ -1538,6 +1538,11 @@ responsive
   .our-blog {
     margin-top: 386px;
   }
+  @media (max-width: 450px) {
+    .our-blog {
+      margin-top: 544px;
+    }
+  }
   .our-blog .top-dec {
     display: none;
   }
@@ -1610,7 +1615,14 @@ responsive
     margin-left: 0px;
   }
 }
-
+@media (max-width: 450px) {
+  .our-portfolio{
+    margin-top: 686px;
+  }
+  .contact-us {
+    margin-top:  583px;
+  }
+}
 
 .typewriter {
 	width: 20.5ch;
