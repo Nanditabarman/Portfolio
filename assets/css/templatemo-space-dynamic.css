@@ -1046,6 +1046,14 @@ Services Style
 .our-services .six-bar span {
   left: 20%;
 }
+@media (max-width: 992px) {
+  .our-services .first-bar span {
+    left: 87%;
+  }
+  .our-services .six-bar span {
+ left: 24%;
+  }
+}
 .our-services .progress-skill-bar h4 {
   font-size: 18px;
   font-weight: 700;
