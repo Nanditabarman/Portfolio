@@ -1701,4 +1701,8 @@ responsive
 .social-links a:hover {
   transform: translateY(-10px);
 }
-
+@media (max-width: 450px) {
+  footer{
+    margin-top: -62px;
+  }
+}
