@@ -879,7 +879,11 @@ Banner Style
   color: #2a2a2a;
   line-height: 72px;
 }
-
+@media (max-width: 992px) {
+  .main-banner .left-content h2 {
+    font-size: 32px;
+  }
+}
 .main-banner .left-content h2 em {
   color: #03a4ed;
   font-style: normal;
@@ -1478,7 +1482,7 @@ responsive
     width: 100%!important;
   }
   #about {
-    margin-top: 0px;
+    margin-top: 174px;
   }
   .about-us {
     position: relative;
@@ -1524,7 +1528,7 @@ responsive
     margin-bottom: 15px;
   }
   .our-blog {
-    margin-top: 0px;
+    margin-top: 386px;
   }
   .our-blog .top-dec {
     display: none;
@@ -1547,7 +1551,7 @@ responsive
     margin-bottom: 45px;
   }
   .contact-us {
-    margin-top: 60px;
+    margin-top: 271px;
     padding: 120px 0px;
   }
   .contact-us .section-heading {
@@ -1566,6 +1570,9 @@ responsive
 }
 
 @media (max-width: 767px) {
+  .our-portfolio{
+    margin-top: 505px;
+  }
   .about-us .left-image {
     bottom: -280px;
   }
